@@ -1,0 +1,39 @@
+body {
+    background-color: darkslategrey;
+    color: white;
+    width: 700px;
+    height: 300px;
+}
+
+input {
+    background-color: darkcyan;
+    color: white;
+    width: 690px;
+    height: 20px;
+}
+
+textarea {
+    background-color: darkcyan;
+    color: white;
+    width: 690px;
+    height: 250px;
+}
+
+button {
+    background-color: darkslategrey;
+    color: white;
+    font-weight: bold;
+    margin: 5px;
+    box-shadow: 50%;
+}
+
+#caixaBtn {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column-button {
+    flex: 1 1 calc(33.33% - 10px); /* Calcula 33.33% da largura com margem de 5px entre os botões */
+    margin: 5px;
+    box-sizing: border-box;
+}
